@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" href="Bootstrap/css/font-awesome-5.8.1.css">
+    <link rel="stylesheet" href="D:\boot_classes\Bootstrap\css\bootstrap.css">
+    <link rel="stylesheet" href="D:\boot_classes\Bootstrap\css\mdb.css">
+    <link rel="stylesheet" href="D:\boot_classes\Bootstrap\css\style.css">
+</head>
+
+<body>
+
+    <script src="D:\boot_classes\Bootstrap\js\jquery.js"></script>
+    <script src="D:\boot_classes\Bootstrap\js\popper.js"></script>
+    <script src="D:\boot_classes\Bootstrap\js\bootstrap.js"></script>
+    <script src="D:\boot_classes\Bootstrap\js\jquery.js"></script>
+
+    <nav class="navbar navbar-dark bg-dark">
+        <a href="#" class="navbar-brand">BS Modals</a>
+    </nav>
+    <!----------------------------------------------START HERE----------------------------------->
+    <div class="container mt-5">
+        <button class="btn btn-secondary" data-toggle="modal" data-target="#register-modal">Register</button>
+        <div class="modal" id="register-modal">
+            <div class="modal-dialog">
+                <div class="modal-content animated swing">
+                    <div class="modal-header bg-secondary">
+                        Register Here
+                        <button class="close" data-dismiss="modal">
+                            <i class="fa fa-times-circle"></i>
+                        </button>
+                    </div>
+                    <div class="modal-body bg-light">
+                        <form>
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="user name">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" placeholder="email">
+                            </div>
+                            <div class="form-group">
+                                <input type="password" class="form-control" placeholder="password">
+                            </div>
+                            <div class="form-group">
+                                <input type="password" class="form-control" placeholder="cofirm password">
+                            </div>
+                            <div class="form-group">
+                                <textarea rows="4" class="form-control" placeholder="about yourself"></textarea>
+                            </div>
+                            <div>
+                                <input type="submit" value="Register" class="btn btn-success">
+                                <a href="#" class="btn btn-dark" data-dismiss="modal">close</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="margin-top: 500px;"></div>
+    <!--------------------------------------------END HERE--------------------------------------->
+</body>
+
+</html>
+
+
+<!--https://use.fontawesome.com/releases/v5.8.1/css/all.css-->
